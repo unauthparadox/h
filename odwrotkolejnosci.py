@@ -7,7 +7,7 @@ def odwrot_wyrazu():
             odwrot_kolejnosci_wyrazu = litera + odwrot_kolejnosci_wyrazu
         return odwrot_kolejnosci_wyrazu
 
-    print(odwrot_kolejnosci_wyrazu(w))
+    print(f"odwrócona kolejność: {odwrot_kolejnosci_wyrazu(w)}")
     input("aby kontynuować, naciśnij enter.")
     
 if __name__ == "__main__":
