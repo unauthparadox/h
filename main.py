@@ -36,7 +36,7 @@ def main():
         try:
             wybor = int(input("wybierz opcję: "))
         except ValueError:
-            print("podaj poprawny numer.")
+            print("nie ma takiej opcji, wybierz ponownie.")
             continue
 
         if wybor == 0:
